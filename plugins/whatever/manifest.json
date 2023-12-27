@@ -1,13 +1,13 @@
 {
-  "name": "EmoButtons",
+  "name": "Emo Buttons",
   "description": "Adds a buttons that reply for you with emotions",
   "authors": [
     {
-      "name": "brooski#8017",
+      "name": "Bruh",
       "id": "1098677438445273088"
     }
   ],
-  "main": "index.ts",
+  "main": "src/index.ts",
   "vendetta": {
     "icon": "ic_badge_staff"
   }
