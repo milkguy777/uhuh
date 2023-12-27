@@ -1,0 +1,14 @@
+{
+  "name": "EmoButtons",
+  "description": "Adds a buttons that reply for you with emotions",
+  "authors": [
+    {
+      "name": "brooski#8017",
+      "id": "1098677438445273088"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "https://i.ibb.co/CwRTRF7/meltedp.png"
+  }
+}
