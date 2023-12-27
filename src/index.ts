@@ -1,6 +1,7 @@
 import {
     logger
 } from "@vendetta";
+/*
 import { findByName } from "@vendetta/metro";
 import { i18n, React } from "@vendetta/metro/common";
 import { after, before } from "@vendetta/patcher";
@@ -8,6 +9,7 @@ import { getAssetIDByName } from "@vendetta/ui/assets";
 import { General } from "@vendetta/ui/components";
 import { findInReactTree } from "@vendetta/utils";
 import FunModeButtons from "../FunModeButtons";
+*/
 
 
 import Settings from "./Settings";
@@ -15,6 +17,7 @@ import Settings from "./Settings";
 export default {
     onLoad: () => {
         logger.log("Hello world!");
+        /*
         before("openLazy", LazyActionSheet, ([component, key, msg]) => {
             const message = msg?.message;
             if (key !== "MessageLongPressActionSheet" || !message) return;
@@ -37,8 +40,9 @@ export default {
                         buttons.push(React.createElement(BTN, message));
                     }
                 });
+
             });
-        }),
+        }),*/
     },
     onUnload: () => {
         logger.log("Goodbye, world.");
