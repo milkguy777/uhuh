@@ -108,7 +108,5 @@ export default function (message: {
 
 
 
-  return (
-    {rows}
-  );
+  return null;
 }
