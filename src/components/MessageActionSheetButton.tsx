@@ -3,7 +3,6 @@ import { getAssetIDByName } from "@vendetta/ui/assets";
 import { showToast } from "@vendetta/ui/toasts";
 
 import { hideActionSheet } from "../../../../stuff/types";
-import { addPin, hasPin, removePin } from "..";
 
 const FunModeActions = [{
             Label: "Flirt",
