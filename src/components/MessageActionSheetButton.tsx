@@ -105,22 +105,7 @@ export default function (message: {
 
   var rows = [];
 
-  for (var FMA of FunModeActions) {
-    rows.push(<RedesignRow
-      label={FMA.Label}
-      icon={<img class="icon_idrclol" aria-hidden="true" role="img" width="18" height="18" fill="none" viewbox="0 0 18 18" src=FMA.onIcon>}
-      onPress={() => {
-        showToast(
-          `Unpinned ${
-            message.nick ??
-            message.author.globalName ??
-            message.author.username
-          }'s message locally`,
-          getAssetIDByName("ic_message_pin"),
-          )
-        }}
-    />);
-  }
+
 
 
   return (
