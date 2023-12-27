@@ -12,7 +12,7 @@ import FunModeButtons from "../FunModeButtons";
 */
 
 
-import Settings from "./Settings";
+//import Settings from "./Settings";
 
 export default {
     onLoad: () => {
